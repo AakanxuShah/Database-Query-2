@@ -1,6 +1,7 @@
 #!/usr/bin/python2.7
 #
-# Assignment2 Interface
+# CSE 512
+# Author : Aakanxu Shah
 #
 
 import psycopg2
@@ -75,3 +76,4 @@ def PointQuery(ratingsTableName, ratingValue, openconnection):
     cur.close()
     demofile.close()
 
+# Disclaimer for students : Be Original and Do not plagiarize ! :)
